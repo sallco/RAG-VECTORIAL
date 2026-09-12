@@ -83,12 +83,14 @@ después de cambiar el corpus sin duplicar registros.
 Con el entorno virtual activo, ejecuta el cargador desde la raíz del repositorio:
 
 ```bash
-python load_faqs.py
+python main.py load
 ```
 
 El modelo se descarga en la primera ejecución. El cargador requiere `DATABASE_URL`,
 `FAQ_TABLE` y `EMBEDDING_MODEL` en `.env`; aplica `db/schema.sql` antes de insertar
 las FAQs, por lo que también funciona con una base nueva.
+
+Para cambiar el tamaño de lote, use `python main.py load --batch-size 16`.
 
 ## Agente de IA
 
@@ -103,7 +105,7 @@ configurado en el proyecto anterior.
 Después de que la infraestructura y la carga estén listas, ejecuta:
 
 ```powershell
-python agent.py
+python main.py chat
 ```
 
 ### Contrato con el script de carga
@@ -123,4 +125,6 @@ que `embedding` debe ser `vector(384)` y usar el mismo modelo/configuración.
 | `embedding` | `vector(384)` |
 
 La búsqueda utiliza distancia coseno (`embedding <=> consulta`) y devuelve hasta
-cinco FAQs. Si el cargador usa otro nombre de tabla, configúralo con `FAQ_TABLE`.
+cinco FAQs. Los resultados por debajo de `MINIMUM_SIMILARITY` se descartan para que
+el agente admita cuando no dispone de información suficiente. Si el cargador usa
+otro nombre de tabla, configúralo con `FAQ_TABLE`.

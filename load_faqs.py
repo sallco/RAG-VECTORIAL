@@ -9,7 +9,7 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Sequence
 
 import psycopg
 from dotenv import load_dotenv
@@ -166,7 +166,7 @@ def save_faqs(
         cursor.executemany(query, rows)
 
 
-def parse_arguments() -> argparse.Namespace:
+def parse_arguments(arguments: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Carga FAQs y sus embeddings en PostgreSQL.")
     parser.add_argument(
         "--corpus",
@@ -175,14 +175,14 @@ def parse_arguments() -> argparse.Namespace:
         help="Ruta al corpus de FAQs.",
     )
     parser.add_argument("--batch-size", type=int, default=32, help="FAQs procesadas por lote de embeddings.")
-    arguments = parser.parse_args()
-    if arguments.batch_size < 1:
+    parsed_arguments = parser.parse_args(arguments)
+    if parsed_arguments.batch_size < 1:
         parser.error("--batch-size debe ser mayor que cero.")
-    return arguments
+    return parsed_arguments
 
 
-def main() -> None:
-    arguments = parse_arguments()
+def main(arguments: Sequence[str] | None = None) -> None:
+    arguments = parse_arguments(arguments)
     load_dotenv(Path(__file__).resolve().parent / ".env", override=True)
     try:
         settings = Settings.from_env()

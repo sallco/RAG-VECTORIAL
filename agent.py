@@ -25,10 +25,11 @@ SYSTEM_PROMPT = """Eres el asistente de atención al cliente de Parachute S.A.
 Responde únicamente preguntas sobre el evento nacional de paracaidismo Guatemala
 2026. Antes de contestar una pregunta sobre el evento, usa siempre la herramienta
 `buscar_faqs`. Basa tu respuesta solamente en los resultados de la herramienta.
-No inventes datos ni políticas: si los resultados no contienen la respuesta, dilo
-con claridad y recomienda escribir a soporte@parachutesa.gt. Responde en español,
-de forma breve y amable. Si mencionas información encontrada, cita el ID de la FAQ
-entre paréntesis, por ejemplo: (FAQ-012)."""
+No inventes datos ni políticas: si la herramienta no devuelve resultados, responde
+que no puedes contestar esa pregunta con la información disponible y recomienda
+escribir a soporte@parachutesa.gt. Responde en español, de forma breve y amable.
+Si mencionas información encontrada, cita el ID de la FAQ entre paréntesis, por
+ejemplo: (FAQ-012)."""
 
 
 SEARCH_TOOL = {
@@ -65,6 +66,7 @@ class Settings:
     base_url: str | None
     embedding_model: str
     table_name: str
+    minimum_similarity: float
 
     @classmethod
     def from_env(cls) -> "Settings":
@@ -78,6 +80,7 @@ class Settings:
         database_url = os.getenv("DATABASE_URL")
         model = os.getenv("MODEL")
         embedding_model = os.getenv("EMBEDDING_MODEL")
+        minimum_similarity_raw = os.getenv("MINIMUM_SIMILARITY")
         missing: list[str] = []
         if not database_url:
             missing.append("DATABASE_URL")
@@ -87,6 +90,8 @@ class Settings:
             missing.append("NVIDIA_API_KEY u OPENAI_API_KEY")
         if not embedding_model:
             missing.append("EMBEDDING_MODEL")
+        if not minimum_similarity_raw:
+            missing.append("MINIMUM_SIMILARITY")
         table_name = os.getenv("FAQ_TABLE")
         if not table_name:
             missing.append("FAQ_TABLE")
@@ -94,6 +99,12 @@ class Settings:
             raise RuntimeError(f"Faltan en .env: {', '.join(missing)}.")
         if not table_name.isidentifier():
             raise RuntimeError("FAQ_TABLE debe ser un identificador SQL simple, por ejemplo: faqs")
+        try:
+            minimum_similarity = float(minimum_similarity_raw)
+        except ValueError as error:
+            raise RuntimeError("MINIMUM_SIMILARITY debe ser un número entre 0 y 1.") from error
+        if not 0 <= minimum_similarity <= 1:
+            raise RuntimeError("MINIMUM_SIMILARITY debe estar entre 0 y 1.")
         return cls(
             database_url=database_url,
             model=model,
@@ -101,6 +112,7 @@ class Settings:
             base_url=base_url,
             embedding_model=embedding_model,
             table_name=table_name,
+            minimum_similarity=minimum_similarity,
         )
 
 
@@ -127,12 +139,25 @@ class FAQSearcher:
             with connection.cursor() as cursor:
                 cursor.execute(query, (embedding, embedding, limite))
                 columns = [column.name for column in cursor.description]
-                return [dict(zip(columns, row)) for row in cursor.fetchall()]
+                results = [dict(zip(columns, row)) for row in cursor.fetchall()]
+                for result in results:
+                    result["similitud"] = float(result["similitud"])
+                return [
+                    result
+                    for result in results
+                    if result["similitud"] >= self.settings.minimum_similarity
+                ]
 
 
 def serializar_resultados(resultados: list[dict[str, Any]]) -> str:
     if not resultados:
-        return json.dumps({"resultados": [], "mensaje": "No se encontraron FAQs."}, ensure_ascii=False)
+        return json.dumps(
+            {
+                "resultados": [],
+                "mensaje": "No se encontraron FAQs con suficiente similitud para responder.",
+            },
+            ensure_ascii=False,
+        )
     return json.dumps({"resultados": resultados}, ensure_ascii=False, default=str)
 
 
@@ -146,7 +171,11 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
             tools=[SEARCH_TOOL],
             # Después de consultar PostgreSQL se fuerza la respuesta final. Esto
             # evita que algunos modelos compatibles vuelvan a llamar la función.
-            tool_choice="none" if tool_used else "auto",
+            tool_choice=(
+                "none"
+                if tool_used
+                else {"type": "function", "function": {"name": "buscar_faqs"}}
+            ),
             temperature=0.2,
         )
         message = completion.choices[0].message
@@ -214,7 +243,7 @@ def main() -> None:
     except RuntimeError as error:
         sys.exit(f"Error de configuración: {error}")
 
-    print("Asistente de Parachute S.A. — escriba 'salir' para terminar.")
+    print("Asistente de Parachute S.A. — escriba 'Bye' para terminar.")
     messages: list[dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}]
     while True:
         try:
@@ -222,7 +251,7 @@ def main() -> None:
         except (EOFError, KeyboardInterrupt):
             print("\nHasta luego.")
             break
-        if question.lower() in {"salir", "exit", "quit"}:
+        if question.lower() == "bye":
             print("Hasta luego.")
             break
         if not question:
