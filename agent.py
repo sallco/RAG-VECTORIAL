@@ -161,6 +161,15 @@ def serializar_resultados(resultados: list[dict[str, Any]]) -> str:
     return json.dumps({"resultados": resultados}, ensure_ascii=False, default=str)
 
 
+def ultima_pregunta_usuario(messages: list[dict[str, Any]]) -> str:
+    for message in reversed(messages):
+        if message["role"] == "user" and isinstance(message.get("content"), str):
+            question = message["content"].strip()
+            if question:
+                return question
+    raise ValueError("No se encontró una pregunta del usuario para consultar.")
+
+
 def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, Any]], model: str) -> str:
     """Ejecuta el ciclo de function calling hasta que el modelo entregue texto."""
     tool_used = False
@@ -211,7 +220,11 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
             else:
                 try:
                     arguments = json.loads(tool_call.function.arguments)
-                    results = searcher.search(arguments["consulta"], arguments.get("limite", 3))
+                    if not isinstance(arguments["consulta"], str):
+                        raise TypeError("consulta debe ser texto.")
+                    results = searcher.search(
+                        ultima_pregunta_usuario(messages), arguments.get("limite", 3)
+                    )
                     output = serializar_resultados(results)
                     should_refuse = should_refuse or not results
                 except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
