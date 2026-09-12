@@ -1,7 +1,8 @@
 """Agente RAG de FAQs para Parachute S.A.
 
 Este programa NO carga el corpus. Depende de que el script de carga haya creado
-la tabla `faqs` y almacenado embeddings de `all-MiniLM-L6-v2` (384 dimensiones).
+la tabla `faqs` y almacenado embeddings de
+`paraphrase-multilingual-MiniLM-L12-v2` (384 dimensiones).
 """
 
 from __future__ import annotations
@@ -76,6 +77,7 @@ class Settings:
             api_key = os.getenv("OPENAI_API_KEY") or os.getenv("NVIDIA_API_KEY")
         database_url = os.getenv("DATABASE_URL")
         model = os.getenv("MODEL")
+        embedding_model = os.getenv("EMBEDDING_MODEL")
         missing: list[str] = []
         if not database_url:
             missing.append("DATABASE_URL")
@@ -83,9 +85,13 @@ class Settings:
             missing.append("MODEL")
         if not api_key:
             missing.append("NVIDIA_API_KEY u OPENAI_API_KEY")
+        if not embedding_model:
+            missing.append("EMBEDDING_MODEL")
+        table_name = os.getenv("FAQ_TABLE")
+        if not table_name:
+            missing.append("FAQ_TABLE")
         if missing:
             raise RuntimeError(f"Faltan en .env: {', '.join(missing)}.")
-        table_name = os.getenv("FAQ_TABLE", "faqs")
         if not table_name.isidentifier():
             raise RuntimeError("FAQ_TABLE debe ser un identificador SQL simple, por ejemplo: faqs")
         return cls(
@@ -93,7 +99,7 @@ class Settings:
             model=model,
             api_key=api_key,
             base_url=base_url,
-            embedding_model=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"),
+            embedding_model=embedding_model,
             table_name=table_name,
         )
 

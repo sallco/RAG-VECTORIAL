@@ -42,8 +42,7 @@ class FAQ:
     def text_for_embedding(self) -> str:
         return (
             f"Categoría: {self.categoria}\n"
-            f"Pregunta: {self.pregunta}\n"
-            f"Respuesta: {self.respuesta}"
+            f"Pregunta: {self.pregunta}"
         )
 
 
@@ -57,14 +56,19 @@ class Settings:
     @classmethod
     def from_env(cls) -> "Settings":
         database_url = os.getenv("DATABASE_URL")
+        embedding_model = os.getenv("EMBEDDING_MODEL")
         if not database_url:
             raise RuntimeError("Falta DATABASE_URL en .env.")
-        table_name = os.getenv("FAQ_TABLE", "faqs")
+        if not embedding_model:
+            raise RuntimeError("Falta EMBEDDING_MODEL en .env.")
+        table_name = os.getenv("FAQ_TABLE")
+        if not table_name:
+            raise RuntimeError("Falta FAQ_TABLE en .env.")
         if not table_name.isidentifier():
             raise RuntimeError("FAQ_TABLE debe ser un identificador SQL simple.")
         return cls(
             database_url=database_url,
-            embedding_model=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"),
+            embedding_model=embedding_model,
             table_name=table_name,
             schema_path=Path(__file__).resolve().parent / "db" / "schema.sql",
         )
@@ -115,7 +119,7 @@ def parse_faqs(corpus_path: Path) -> list[FAQ]:
 
 def load_embeddings(model_name: str, faqs: list[FAQ], batch_size: int) -> list[list[float]]:
     model = SentenceTransformer(model_name)
-    dimension = model.get_sentence_embedding_dimension()
+    dimension = model.get_embedding_dimension()
     if dimension != EXPECTED_EMBEDDING_DIMENSION:
         raise RuntimeError(
             f"El modelo {model_name} genera vectores de {dimension} dimensiones; "

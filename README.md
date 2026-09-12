@@ -71,13 +71,13 @@ docker compose exec -T postgres sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB
 
 El esquema crea la extensión `vector`, la tabla `faqs` y un índice HNSW para
 búsquedas por distancia coseno. La columna `embedding` tiene tipo `vector(384)`
-porque el proyecto usa el modelo `all-MiniLM-L6-v2`, que genera vectores de esa
-dimensión.
+porque el proyecto usa el modelo multilingüe
+configurado en `EMBEDDING_MODEL`, que genera vectores de esa dimensión.
 
 ## Carga del corpus
 
 `load_faqs.py` lee el corpus, valida su formato, crea un embedding normalizado por
-FAQ y realiza un *upsert* en PostgreSQL. Por ello se puede ejecutar nuevamente
+pregunta y realiza un *upsert* en PostgreSQL. Por ello se puede ejecutar nuevamente
 después de cambiar el corpus sin duplicar registros.
 
 Con el entorno virtual activo, ejecuta el cargador desde la raíz del repositorio:
@@ -109,7 +109,8 @@ python agent.py
 ### Contrato con el script de carga
 
 Para integrarse con `agent.py`, la tabla (por defecto `faqs`) debe tener estas
-columnas. El agente genera la consulta con `all-MiniLM-L6-v2`, normalizada, por lo
+columnas. El agente genera la consulta con
+`paraphrase-multilingual-MiniLM-L12-v2`, normalizada, por lo
 que `embedding` debe ser `vector(384)` y usar el mismo modelo/configuración.
 
 | Columna | Tipo esperado |
