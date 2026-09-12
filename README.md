@@ -25,6 +25,9 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
+`main.py` es el punto de entrada del proyecto: usa `load` para cargar el corpus y
+`chat` para iniciar el agente.
+
 ## Infraestructura
 
 La base vectorial se ejecuta localmente con PostgreSQL 16 y la extensión pgvector
@@ -108,6 +111,9 @@ Después de que la infraestructura y la carga estén listas, ejecuta:
 python main.py chat
 ```
 
+La sesión acepta múltiples preguntas y termina al escribir `Bye` o al usar
+`Ctrl-C`.
+
 ### Contrato con el script de carga
 
 Para integrarse con `agent.py`, la tabla (por defecto `faqs`) debe tener estas
@@ -127,4 +133,5 @@ que `embedding` debe ser `vector(384)` y usar el mismo modelo/configuración.
 La búsqueda utiliza distancia coseno (`embedding <=> consulta`) y devuelve hasta
 cinco FAQs. Los resultados por debajo de `MINIMUM_SIMILARITY` se descartan para que
 el agente admita cuando no dispone de información suficiente. Si el cargador usa
-otro nombre de tabla, configúralo con `FAQ_TABLE`.
+otro nombre de tabla, configúralo con `FAQ_TABLE`. El valor de
+`MINIMUM_SIMILARITY` se define en `.env` y debe estar entre `0` y `1`.

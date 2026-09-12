@@ -203,22 +203,33 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
         if not message.tool_calls:
             return message.content or "No pude generar una respuesta. Intenta nuevamente."
 
+        should_refuse = False
         for tool_call in message.tool_calls:
             if tool_call.function.name != "buscar_faqs":
                 output = json.dumps({"error": "Herramienta no permitida."})
+                should_refuse = True
             else:
                 try:
                     arguments = json.loads(tool_call.function.arguments)
-                    output = serializar_resultados(
-                        searcher.search(arguments["consulta"], arguments.get("limite", 3))
-                    )
+                    results = searcher.search(arguments["consulta"], arguments.get("limite", 3))
+                    output = serializar_resultados(results)
+                    should_refuse = should_refuse or not results
                 except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
                     output = json.dumps({"error": f"Argumentos inválidos: {error}"}, ensure_ascii=False)
+                    should_refuse = True
                 except psycopg.Error:
                     output = json.dumps(
                         {"error": "No fue posible consultar la base de conocimiento."}, ensure_ascii=False
                     )
+                    should_refuse = True
             messages.append({"role": "tool", "tool_call_id": tool_call.id, "content": output})
+        if should_refuse:
+            response = (
+                "No puedo responder esa pregunta con la información disponible. "
+                "Puedes escribir a soporte@parachutesa.gt."
+            )
+            messages.append({"role": "assistant", "content": response})
+            return response
         tool_used = True
     return "No pude completar la búsqueda. Por favor, intenta formular la pregunta de otra manera."
 
