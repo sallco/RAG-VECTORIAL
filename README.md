@@ -3,6 +3,12 @@
 Implementación de RAG para las FAQs de Parachute S.A. con PostgreSQL, pgvector y
 function calling.
 
+## Video demostrativo
+
+[![Previsualización del video demostrativo](https://img.youtube.com/vi/0NCuBv0_-zY/hqdefault.jpg)](https://youtu.be/0NCuBv0_-zY)
+
+Haz clic en la imagen para ver la demostración del cargador y del agente.
+
 ## Entorno virtual
 
 Desde la raíz del repositorio, crea y activa el entorno virtual:
