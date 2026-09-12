@@ -190,9 +190,19 @@ def parsear_argumentos_busqueda(raw_arguments: str) -> tuple[str, int]:
     arguments = json.loads(raw_arguments)
     if not isinstance(arguments, dict):
         raise TypeError("Los argumentos de la herramienta deben ser un objeto JSON.")
-    parameters = arguments.get("parameters", arguments)
-    if not isinstance(parameters, dict):
-        raise TypeError("parameters debe ser un objeto JSON.")
+    # Algunos proveedores envuelven los argumentos en "parameters", y a veces lo
+    # anidan más de una vez (p. ej. {"parameters": {"parameters": {...}}}).
+    # Se desenvuelve hasta encontrar el nivel que trae "consulta".
+    parameters = arguments
+    for _ in range(5):
+        if not isinstance(parameters, dict):
+            raise TypeError("parameters debe ser un objeto JSON.")
+        if "consulta" in parameters:
+            break
+        if "parameters" in parameters:
+            parameters = parameters["parameters"]
+            continue
+        break
     consulta = parameters["consulta"]
     if not isinstance(consulta, str) or not consulta.strip():
         raise TypeError("consulta debe ser texto no vacío.")
