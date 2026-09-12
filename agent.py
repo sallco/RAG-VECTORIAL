@@ -173,6 +173,19 @@ def ultima_pregunta_usuario(messages: list[dict[str, Any]]) -> str:
     raise ValueError("No se encontró una pregunta del usuario para consultar.")
 
 
+def buscar_combinado(
+    searcher: FAQSearcher, consulta_reformulada: str, pregunta_original: str, limite: int
+) -> list[dict[str, Any]]:
+    """Busca con la reformulación del LLM (más limpia para frases ruidosas) y usa
+    la pregunta original del usuario como respaldo si esa búsqueda no encuentra nada."""
+    resultados = searcher.search(consulta_reformulada, limite)
+    if resultados:
+        return resultados
+    if pregunta_original.strip().lower() == consulta_reformulada.strip().lower():
+        return resultados
+    return searcher.search(pregunta_original, limite)
+
+
 def parsear_argumentos_busqueda(raw_arguments: str) -> tuple[str, int]:
     arguments = json.loads(raw_arguments)
     if not isinstance(arguments, dict):
@@ -255,8 +268,10 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
             should_refuse = True
         else:
             try:
-                _, limite = parsear_argumentos_busqueda(tool_call.function.arguments)
-                results = searcher.search(ultima_pregunta_usuario(messages), limite)
+                consulta, limite = parsear_argumentos_busqueda(tool_call.function.arguments)
+                results = buscar_combinado(
+                    searcher, consulta, ultima_pregunta_usuario(messages), limite
+                )
                 output = serializar_resultados(results)
                 results_found.extend(results)
                 should_refuse = should_refuse or not results
