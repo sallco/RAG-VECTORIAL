@@ -34,14 +34,6 @@ Si mencionas información encontrada, cita el ID de la FAQ entre paréntesis, po
 ejemplo: (FAQ-012)."""
 
 
-RESPONSE_SYSTEM_PROMPT = """Redacta una respuesta breve, amable y clara en español.
-Usa únicamente la fuente oficial proporcionada por el usuario. No agregues hechos,
-políticas, aprobaciones ni restricciones que la fuente no exprese. Si la fuente no
-resuelve explícitamente la pregunta, explica con claridad que solo se encontró la
-información relacionada y recomienda contactar a soporte@parachutesa.gt. Incluye el
-ID de la FAQ al final de la respuesta."""
-
-
 SEARCH_TOOL = {
     "type": "function",
     "function": {
@@ -196,45 +188,27 @@ def parsear_argumentos_busqueda(raw_arguments: str) -> tuple[str, int]:
 
 
 def formatear_respuesta(result: dict[str, Any]) -> str:
-    respuesta = textwrap.fill(
-        result["respuesta"],
+    respuesta_original = result["respuesta"]
+    if respuesta_original.startswith("Respuesta detallada para la consulta sobre"):
+        respuesta = (
+            "La fuente identifica esta FAQ, pero no proporciona un detalle concreto "
+            "para confirmar la respuesta. Para confirmarla, escribe a "
+            "soporte@parachutesa.gt."
+        )
+    else:
+        respuesta = respuesta_original
+    respuesta_formateada = textwrap.fill(
+        respuesta,
         width=88,
         initial_indent="  ",
         subsequent_indent="  ",
     )
     return (
-        f"Pregunta relacionada: {result['pregunta']}\n"
-        f"Categoría: {result['categoria']}\n\n"
-        f"Respuesta oficial:\n{respuesta}\n\n"
+        f"FAQ encontrada: {result['pregunta']}\n"
+        f"Categoría: {result['categoria']}\n"
+        f"Información disponible:\n{respuesta_formateada}\n"
         f"Referencia: {result['id']}"
     )
-
-
-def redactar_respuesta(
-    client: OpenAI, model: str, question: str, result: dict[str, Any]
-) -> str:
-    source = json.dumps(
-        {
-            "id": result["id"],
-            "categoria": result["categoria"],
-            "pregunta": result["pregunta"],
-            "respuesta": result["respuesta"],
-        },
-        ensure_ascii=False,
-    )
-    completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": RESPONSE_SYSTEM_PROMPT},
-            {
-                "role": "user",
-                "content": f"Pregunta del usuario: {question}\n\nFuente oficial:\n{source}",
-            },
-        ],
-        temperature=0.2,
-    )
-    response = completion.choices[0].message.content
-    return response.strip() if response else formatear_respuesta(result)
 
 
 def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, Any]], model: str) -> str:
@@ -303,12 +277,7 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
         )
     else:
         best_result = results_found[0]
-        response = redactar_respuesta(
-            client,
-            model,
-            ultima_pregunta_usuario(messages),
-            best_result,
-        )
+        response = formatear_respuesta(best_result)
     messages.append({"role": "assistant", "content": response})
     return response
 
@@ -348,6 +317,7 @@ def main() -> None:
             continue
         messages.append({"role": "user", "content": question})
         try:
+            print("\nAsistente: Buscando en la base de conocimiento...", flush=True)
             print(f"\nAsistente: {responder(client, searcher, messages, settings.model)}")
         except APITimeoutError:
             print("\nAsistente: El proveedor tardó demasiado en responder. Intenta nuevamente.")
