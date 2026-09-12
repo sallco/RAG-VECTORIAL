@@ -3,6 +3,42 @@
 Implementación de RAG para las FAQs de Parachute S.A. con PostgreSQL, pgvector y
 function calling.
 
+## Infraestructura
+
+La base vectorial se ejecuta localmente con PostgreSQL 16 y la extensión pgvector
+mediante Docker Compose. Los datos se guardan en el volumen `postgres_data`, por
+lo que permanecen disponibles aunque el contenedor se detenga.
+
+1. Instala Docker Desktop o Docker Engine con el complemento Docker Compose.
+2. Desde la raíz del repositorio, inicia la base de datos:
+
+   ```bash
+   docker compose up -d
+   ```
+
+3. Comprueba que PostgreSQL ya acepta conexiones:
+
+   ```bash
+   docker compose ps
+   ```
+
+   El estado debe mostrarse como `healthy`.
+
+4. Para detener la infraestructura conservando sus datos:
+
+   ```bash
+   docker compose down
+   ```
+
+Antes de iniciarla, define en `.env` las variables `POSTGRES_DB`, `POSTGRES_USER`,
+`POSTGRES_PASSWORD` y `DATABASE_URL`. La URL debe seguir el formato
+`postgresql://<POSTGRES_USER>:<POSTGRES_PASSWORD>@localhost:5432/<POSTGRES_DB>`.
+El archivo `.env` no se versiona; `.env.example` solo documenta las variables
+requeridas y no contiene valores de configuración.
+
+> Para reiniciar la base desde cero, use `docker compose down -v`. Esto elimina
+> permanentemente el volumen con los embeddings y los datos cargados.
+
 ## Agente de IA
 
 `agent.py` es el programa conversacional. No ingiere el corpus: consulta la tabla

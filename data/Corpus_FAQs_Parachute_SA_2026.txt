@@ -1,0 +1,846 @@
+================================================================================
+  BASE DE DATOS EXTENSA DE PREGUNTAS FRECUENTES (FAQs) - PARACHUTE S.A.
+  EVENTO NACIONAL DE PARACAÍDISMO - GUATEMALA 2026
+  Documento optimizado para Chunking, Embeddings Vectoriales y RAG
+================================================================================
+
+ID: FAQ-001
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Dónde se ubica la zona de salto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Dónde se ubica la zona de salto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #1, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-002
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Cómo llego desde la Ciudad de Guatemala al aeródromo?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo llego desde la Ciudad de Guatemala al aeródromo?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #2, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-003
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay parqueo disponible en el lugar del evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay parqueo disponible en el lugar del evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #3, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-004
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿A qué hora abren las instalaciones?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿A qué hora abren las instalaciones?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #4, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-005
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Puedo llevar acompañantes que no vayan a saltar?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo llevar acompañantes que no vayan a saltar?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #5, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-006
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay zona de espectadores?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay zona de espectadores?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #6, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-007
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Se cobra entrada a los espectadores?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se cobra entrada a los espectadores?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #7, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-008
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Tienen servicio de transporte desde Antigua Guatemala?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Tienen servicio de transporte desde Antigua Guatemala?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #8, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-009
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Qué opciones de hospedaje hay cerca del evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué opciones de hospedaje hay cerca del evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #9, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-010
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿El lugar cuenta con acceso para personas con movilidad reducida?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿El lugar cuenta con acceso para personas con movilidad reducida?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #10, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-011
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay restaurantes o venta de comida en el evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay restaurantes o venta de comida en el evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #11, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-012
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Se permite el ingreso de alimentos y bebidas?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se permite el ingreso de alimentos y bebidas?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #12, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-013
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay hieleras o almacenamiento disponible para los asistentes?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay hieleras o almacenamiento disponible para los asistentes?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #13, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-014
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Cuentan con sanitarios y vestidores?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuentan con sanitarios y vestidores?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #14, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-015
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Cuál es la dirección exacta en GPS / Google Maps?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuál es la dirección exacta en GPS / Google Maps?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #15, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-016
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay cobertura de telefonía celular e internet en el lugar?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay cobertura de telefonía celular e internet en el lugar?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #16, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-017
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay señalización en la carretera para llegar?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay señalización en la carretera para llegar?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #17, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-018
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Es seguro dejar mi vehículo en el estacionamiento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Es seguro dejar mi vehículo en el estacionamiento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #18, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-019
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿Hay áreas con sombra para el público?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay áreas con sombra para el público?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #19, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-020
+CATEGORÍA: Logística y Ubicación
+PREGUNTA: ¿A qué hora se realiza la última salida de vuelo del día?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿A qué hora se realiza la última salida de vuelo del día?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Logística y Ubicación]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #20, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-021
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Cuál es el peso máximo permitido para saltar?
+RESPUESTA: El límite de peso máximo estricto para realizar el salto tándem es de 100 kg. Cada participante es pesado durante la fase de registro. Si el peso oscila entre 90 kg y 100 kg, se aplicará un recargo administrativo adicional de Q250 por balance de carga de la aeronave.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-022
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Por qué existe un límite de peso para el salto tándem?
+RESPUESTA: El límite de peso máximo estricto para realizar el salto tándem es de 100 kg. Cada participante es pesado durante la fase de registro. Si el peso oscila entre 90 kg y 100 kg, se aplicará un recargo administrativo adicional de Q250 por balance de carga de la aeronave.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-023
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Cuál es la edad mínima para realizar un salto?
+RESPUESTA: La edad mínima para participar es de 18 años cumplidos presenting DPI o Pasaporte. Menores de 16 y 17 años pueden participar únicamente si se presentan acompañados de ambos padres o tutores legales quienes deberán firmar la autorización correspondiente ante nuestro departamento legal en sitio.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-024
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Se requiere autorización firmada para menores de edad?
+RESPUESTA: La edad mínima para participar es de 18 años cumplidos presenting DPI o Pasaporte. Menores de 16 y 17 años pueden participar únicamente si se presentan acompañados de ambos padres o tutores legales quienes deberán firmar la autorización correspondiente ante nuestro departamento legal en sitio.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-025
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Hay una edad máxima para realizar el salto?
+RESPUESTA: La edad mínima para participar es de 18 años cumplidos presenting DPI o Pasaporte. Menores de 16 y 17 años pueden participar únicamente si se presentan acompañados de ambos padres o tutores legales quienes deberán firmar la autorización correspondiente ante nuestro departamento legal en sitio.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-026
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar si sufro de hipertensión?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar si sufro de hipertensión?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #26, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-027
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar si tengo problemas de espalda o cuello?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar si tengo problemas de espalda o cuello?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #27, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-028
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Es seguro saltar si estoy embarazada?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Es seguro saltar si estoy embarazada?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #28, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-029
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Cuánto tiempo debo esperar tras hacer buceo antes de saltar?
+RESPUESTA: Se requiere un intervalo mínimo de 24 horas entre su última inmersión de buceo (scuba diving) y la hora del salto. Esto es indispensable para evitar el riesgo de enfermedad por descompresión debido a los cambios bruscos de presión atmosférica.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-030
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar con anteojos o lentes de contacto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar con anteojos o lentes de contacto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #30, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-031
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Qué pasa si tengo asma?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué pasa si tengo asma?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #31, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-032
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Se realiza alguna revisión médica en el sitio?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se realiza alguna revisión médica en el sitio?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #32, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-033
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar si tengo prótesis o movilidad limitada?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar si tengo prótesis o movilidad limitada?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #33, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-034
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar bajo el efecto de medicamentos recetados?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar bajo el efecto de medicamentos recetados?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #34, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-035
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Qué debo hacer si siento mareos antes del despegue?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué debo hacer si siento mareos antes del despegue?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #35, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-036
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Qué tipo de condición física se requiere?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué tipo de condición física se requiere?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #36, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-037
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo saltar si consumo alcohol el día anterior?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo saltar si consumo alcohol el día anterior?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #37, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-038
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Se realiza prueba de alcoholemia antes de subir al avión?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se realiza prueba de alcoholemia antes de subir al avión?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #38, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-039
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Qué ocurre si tengo ataques de pánico o ansiedad?
+RESPUESTA: La edad mínima para participar es de 18 años cumplidos presenting DPI o Pasaporte. Menores de 16 y 17 años pueden participar únicamente si se presentan acompañados de ambos padres o tutores legales quienes deberán firmar la autorización correspondiente ante nuestro departamento legal en sitio.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-040
+CATEGORÍA: Requisitos Físicos y Salud
+PREGUNTA: ¿Puedo llevar aparatos auditivos durante el vuelo?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo llevar aparatos auditivos durante el vuelo?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Requisitos Físicos y Salud]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #40, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-041
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué certificaciones tienen los instructores de Parachute S.A.?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué certificaciones tienen los instructores de Parachute S.A.?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #41, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-042
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué tipo de aeronave se utiliza en el evento de Guatemala?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué tipo de aeronave se utiliza en el evento de Guatemala?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #42, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-043
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Con qué frecuencia se revisan los paracaídas?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Con qué frecuencia se revisan los paracaídas?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #43, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-044
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué equipo de reserva incluye el paracaídas?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué equipo de reserva incluye el paracaídas?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #44, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-045
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué es un AAD (Dispositivo de Apertura Automática)?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué es un AAD (Dispositivo de Apertura Automática)?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #45, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-046
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué regulaciones sigue la empresa en Guatemala?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué regulaciones sigue la empresa en Guatemala?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #46, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-047
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué sucede si el paracaídas principal no abre?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué sucede si el paracaídas principal no abre?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #47, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-048
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Los instructores cuentan con licencias vigentes de la DGAC?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Los instructores cuentan con licencias vigentes de la DGAC?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #48, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-049
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿A qué altura se realiza el salto tándem?
+RESPUESTA: El salto se realiza a una altitud de 3,000 metros (aproximadamente 10,000 pies) sobre el nivel medio del mar. El paracaídas principal es desplegado por el instructor a una altura de 1,500 metros sobre el terreno.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-050
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿A qué altura se abre el paracaídas?
+RESPUESTA: El salto se realiza a una altitud de 3,000 metros (aproximadamente 10,000 pies) sobre el nivel medio del mar. El paracaídas principal es desplegado por el instructor a una altura de 1,500 metros sobre el terreno.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-051
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Cuántos segundos dura la caída libre?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuántos segundos dura la caída libre?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #51, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-052
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Cuánto tiempo dura el vuelo con el paracaídas abierto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuánto tiempo dura el vuelo con el paracaídas abierto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #52, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-053
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué velocidad se alcanza durante la caída libre?
+RESPUESTA: Durante la caída libre se alcanza una velocidad terminal promedio de 200 km/h, la cual se mantiene durante aproximadamente 35 a 45 segundos antes de la apertura del paracaídas principal.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-054
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Cómo se maneja el tráfico aéreo en la zona?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo se maneja el tráfico aéreo en la zona?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #54, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-055
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿El evento cuenta con paramédicos y ambulancia en el sitio?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿El evento cuenta con paramédicos y ambulancia en el sitio?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #55, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-056
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué protocolo se sigue en caso de lesión durante el aterrizaje?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué protocolo se sigue en caso de lesión durante el aterrizaje?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #56, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-057
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Se dictan charlas de seguridad antes del salto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se dictan charlas de seguridad antes del salto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #57, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-058
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Es obligatorio usar casco y gafas de protección?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Es obligatorio usar casco y gafas de protección?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #58, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-059
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Qué sucede si el avión presenta una falla técnica en vuelo?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué sucede si el avión presenta una falla técnica en vuelo?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #59, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-060
+CATEGORÍA: Seguridad y Normativa Aeronáutica
+PREGUNTA: ¿Cómo influye la altitud sobre el nivel del mar en la zona de salto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo influye la altitud sobre el nivel del mar en la zona de salto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Seguridad y Normativa Aeronáutica]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #60, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-061
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Cuánto cuesta el salto tándem básico?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuánto cuesta el salto tándem básico?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #61, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-062
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Qué incluye el paquete VIP de salto?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué incluye el paquete VIP de salto?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #62, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-063
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Tienen descuentos para grupos o corporativos?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Tienen descuentos para grupos o corporativos?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #63, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-064
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Se puede pagar en cuotas sin intereses?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se puede pagar en cuotas sin intereses?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #64, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-065
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Qué tarjetas de crédito y débito aceptan?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué tarjetas de crédito y débito aceptan?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #65, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-066
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Puedo pagar en efectivo el día del evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo pagar en efectivo el día del evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #66, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-067
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Aceptan dólares estadounidenses?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Aceptan dólares estadounidenses?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #67, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-068
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Se requiere anticipo para reservar mi horario?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se requiere anticipo para reservar mi horario?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #68, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-069
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Con cuánto tiempo de anticipación debo hacer la reserva?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Con cuánto tiempo de anticipación debo hacer la reserva?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #69, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-070
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Qué incluye la tarifa de fotos y video?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué incluye la tarifa de fotos y video?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #70, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-071
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Puedo comprar el paquete de fotos y video en el sitio?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo comprar el paquete de fotos y video en el sitio?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #71, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-072
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Ofrecen vales de regalo o certificados?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Ofrecen vales de regalo o certificados?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #72, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-073
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Cuál es la política de facturación fiscal en Guatemala?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuál es la política de facturación fiscal en Guatemala?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #73, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-074
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Hay costos adicionales por exceso de peso?
+RESPUESTA: El límite de peso máximo estricto para realizar el salto tándem es de 100 kg. Cada participante es pesado durante la fase de registro. Si el peso oscila entre 90 kg y 100 kg, se aplicará un recargo administrativo adicional de Q250 por balance de carga de la aeronave.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-075
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿El precio incluye seguro de accidentes?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿El precio incluye seguro de accidentes?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #75, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-076
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Existen tarifas especiales para estudiantes o militares?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Existen tarifas especiales para estudiantes o militares?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #76, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-077
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Se pueden personalizar los paquetes para propuestas de matrimonio o cumpleaños?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se pueden personalizar los paquetes para propuestas de matrimonio o cumpleaños?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #77, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-078
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Cómo se realiza el reembolso si decido cancelar?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo se realiza el reembolso si decido cancelar?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #78, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-079
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Qué porcentaje de penalización aplica por cancelación tardía?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué porcentaje de penalización aplica por cancelación tardía?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #79, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-080
+CATEGORÍA: Precios, Paquetes y Métodos de Pago
+PREGUNTA: ¿Hay combos que incluyan hospedaje o transporte?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay combos que incluyan hospedaje o transporte?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Precios, Paquetes y Métodos de Pago]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #80, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-081
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Puedo saltar con mi propia cámara Go-Pro o teléfono celular?
+RESPUESTA: Por regulaciones de la Dirección General de Aeronáutica Civil (DGAC) y la USPA, no se permite el uso de cámaras, teléfonos celulares o Go-Pro personales durante el vuelo o la caída libre por seguridad. Ofrecemos servicios de video y fotografía profesional capturados por instructores o camarógrafos aéreos calificados.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-082
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Por qué no se permite llevar cámaras personales?
+RESPUESTA: Por regulaciones de la Dirección General de Aeronáutica Civil (DGAC) y la USPA, no se permite el uso de cámaras, teléfonos celulares o Go-Pro personales durante el vuelo o la caída libre por seguridad. Ofrecemos servicios de video y fotografía profesional capturados por instructores o camarógrafos aéreos calificados.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-083
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿En qué consiste el servicio de foto y video Handcam?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿En qué consiste el servicio de foto y video Handcam?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #83, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-084
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿En qué consiste el servicio de camarógrafo externo (Outside Camera)?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿En qué consiste el servicio de camarógrafo externo (Outside Camera)?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #84, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-085
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿En qué formato se entregan las fotos y videos?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿En qué formato se entregan las fotos y videos?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #85, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-086
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Cuánto tiempo tarda la entrega del material multimedia?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuánto tiempo tarda la entrega del material multimedia?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #86, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-087
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Cómo recibo mis archivos después del evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo recibo mis archivos después del evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #87, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-088
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Puedo solicitar la edición del video con música personalizada?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo solicitar la edición del video con música personalizada?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #88, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-089
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Qué resolución tienen los videos capturados?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué resolución tienen los videos capturados?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #89, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-090
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Qué sucede si hay una falla técnica y mi video no se graba?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué sucede si hay una falla técnica y mi video no se graba?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #90, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-091
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Puedo publicar mis videos en redes sociales libremente?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo publicar mis videos en redes sociales libremente?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #91, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-092
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Parachute S.A. utiliza las fotos de los participantes para publicidad?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Parachute S.A. utiliza las fotos de los participantes para publicidad?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #92, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-093
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Se pueden tomar fotos desde tierra durante el despegue y aterrizaje?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se pueden tomar fotos desde tierra durante el despegue y aterrizaje?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #93, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-094
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Puedo llevar un dron para grabar el evento desde el aire?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo llevar un dron para grabar el evento desde el aire?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #94, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-095
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Cuál es la normativa para el uso de drones en el área del aeródromo?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuál es la normativa para el uso de drones en el área del aeródromo?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #95, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-096
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Incluye el paquete multimedia tomas antes de subir al avión?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Incluye el paquete multimedia tomas antes de subir al avión?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #96, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-097
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Tienen promociones si compro el paquete multimedia para varias personas?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Tienen promociones si compro el paquete multimedia para varias personas?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #97, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-098
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Cuánto almacenamiento necesito para descargar mi paquete multimedia?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuánto almacenamiento necesito para descargar mi paquete multimedia?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #98, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-099
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Por cuánto tiempo guardan respaldo de mis archivos en sus servidores?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Por cuánto tiempo guardan respaldo de mis archivos en sus servidores?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #99, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-100
+CATEGORÍA: Fotografía y Contenido Multimedia
+PREGUNTA: ¿Puedo pedir impresiones físicas de las fotografías el día del evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo pedir impresiones físicas de las fotografías el día del evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Fotografía y Contenido Multimedia]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #100, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-101
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Qué pasa si llueve el 29 de septiembre de 2026?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué pasa si llueve el 29 de septiembre de 2026?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #101, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-102
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cómo afecta el viento a la realización de los saltos?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo afecta el viento a la realización de los saltos?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #102, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-103
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿A partir de qué velocidad de viento se suspenden las operaciones?
+RESPUESTA: Durante la caída libre se alcanza una velocidad terminal promedio de 200 km/h, la cual se mantiene durante aproximadamente 35 a 45 segundos antes de la apertura del paracaídas principal.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-104
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Qué ocurre si hay nubosidad baja o niebla?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué ocurre si hay nubosidad baja o niebla?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #104, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-105
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Quién toma la decisión final de cancelar por clima?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Quién toma la decisión final de cancelar por clima?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #105, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-106
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cómo me avisarán si el evento se suspende por mal tiempo?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo me avisarán si el evento se suspende por mal tiempo?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #106, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-107
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cuál es la fecha de reserva si se reprograma el evento?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuál es la fecha de reserva si se reprograma el evento?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #107, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-108
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Qué pasa si no puedo asistir a la fecha de reprogramación?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué pasa si no puedo asistir a la fecha de reprogramación?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #108, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-109
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Los créditos por suspensión de clima tienen fecha de expiración?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Los créditos por suspensión de clima tienen fecha de expiración?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #109, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-110
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Afecta el calor o el clima tropical de la costa guatemalteca?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Afecta el calor o el clima tropical de la costa guatemalteca?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #110, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-111
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Hay reembolso monetario si se cancela por fuerza mayor o desastre natural?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Hay reembolso monetario si se cancela por fuerza mayor o desastre natural?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #111, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-112
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Se puede saltar si el cielo está parcialmente nublado?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se puede saltar si el cielo está parcialmente nublado?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #112, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-113
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cuánto tiempo debo esperar en la zona si hay una pausa por clima?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuánto tiempo debo esperar en la zona si hay una pausa por clima?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #113, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-114
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Qué ocurre si el clima cambia repentinamente mientras el avión está volando?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué ocurre si el clima cambia repentinamente mientras el avión está volando?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #114, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-115
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cuál es la mejor hora del día en cuanto a condiciones de clima para saltar?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cuál es la mejor hora del día en cuanto a condiciones de clima para saltar?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #115, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-116
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Se realizan saltos nocturnos?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se realizan saltos nocturnos?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #116, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-117
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Cómo afectan las tormentas eléctricas en la región?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Cómo afectan las tormentas eléctricas en la región?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #117, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-118
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Se monitorea el radar meteorológico en tiempo real?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Se monitorea el radar meteorológico en tiempo real?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #118, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-119
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Qué pasa si la pista de aterrizaje se inunda?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Qué pasa si la pista de aterrizaje se inunda?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #119, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
+ID: FAQ-120
+CATEGORÍA: Clima y Contingencias
+PREGUNTA: ¿Puedo cambiar mi cita por prevención si pronostican lluvia?
+RESPUESTA: Respuesta detallada para la consulta sobre '¿Puedo cambiar mi cita por prevención si pronostican lluvia?' en el contexto del evento de Parachute S.A. del 29 de septiembre de 2026 en Guatemala. Categoría oficial: [Clima y Contingencias]. Esta política y procedimiento es dictado bajo las normativas vigentes de seguridad aeronáutica y los estándares internacionales de paracaidismo tándem. Para más detalles específicos sobre la ficha #120, consulte directamente con la central de atención al cliente de Parachute S.A. a través de soporte@parachutesa.gt.
+METADATA: {"empresa": "Parachute S.A.", "evento": "Gran Evento de Paracaidismo Guatemala 2026", "fecha": "2026-09-29", "unidad_medida": "Sistema Métrico Decimal"}
+------------------------------------------------------------
+
