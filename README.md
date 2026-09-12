@@ -39,6 +39,19 @@ requeridas y no contiene valores de configuración.
 > Para reiniciar la base desde cero, use `docker compose down -v`. Esto elimina
 > permanentemente el volumen con los embeddings y los datos cargados.
 
+### Esquema de FAQs
+
+Una vez iniciada la base, aplica el esquema de forma explícita:
+
+```bash
+docker compose exec -T postgres sh -c 'psql -U "$POSTGRES_USER" -d "$POSTGRES_DB"' < db/schema.sql
+```
+
+El esquema crea la extensión `vector`, la tabla `faqs` y un índice HNSW para
+búsquedas por distancia coseno. La columna `embedding` tiene tipo `vector(384)`
+porque el proyecto usa el modelo `all-MiniLM-L6-v2`, que genera vectores de esa
+dimensión.
+
 ## Agente de IA
 
 `agent.py` es el programa conversacional. No ingiere el corpus: consulta la tabla
