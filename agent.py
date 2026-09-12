@@ -10,11 +10,12 @@ import json
 import os
 import sys
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 import psycopg
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import APIConnectionError, APIStatusError, APITimeoutError, OpenAI
 from pgvector.psycopg import register_vector
 from sentence_transformers import SentenceTransformer
 
@@ -68,14 +69,22 @@ class Settings:
     def from_env(cls) -> "Settings":
         # OPENAI_API_KEY sirve para OpenAI; NVIDIA_API_KEY mantiene compatibilidad
         # con el .env del proyecto anterior y con endpoints OpenAI-compatibles de NVIDIA.
-        api_key = os.getenv("OPENAI_API_KEY") or os.getenv("NVIDIA_API_KEY")
+        base_url = os.getenv("OPENAI_BASE_URL") or None
+        if base_url and "nvidia.com" in base_url.lower():
+            api_key = os.getenv("NVIDIA_API_KEY") or os.getenv("OPENAI_API_KEY")
+        else:
+            api_key = os.getenv("OPENAI_API_KEY") or os.getenv("NVIDIA_API_KEY")
         database_url = os.getenv("DATABASE_URL")
         model = os.getenv("MODEL")
-        if not api_key or not database_url or not model:
-            raise RuntimeError(
-                "Faltan variables requeridas. Configure DATABASE_URL, MODEL y "
-                "OPENAI_API_KEY (o NVIDIA_API_KEY) en .env."
-            )
+        missing: list[str] = []
+        if not database_url:
+            missing.append("DATABASE_URL")
+        if not model:
+            missing.append("MODEL")
+        if not api_key:
+            missing.append("NVIDIA_API_KEY u OPENAI_API_KEY")
+        if missing:
+            raise RuntimeError(f"Faltan en .env: {', '.join(missing)}.")
         table_name = os.getenv("FAQ_TABLE", "faqs")
         if not table_name.isidentifier():
             raise RuntimeError("FAQ_TABLE debe ser un identificador SQL simple, por ejemplo: faqs")
@@ -83,7 +92,7 @@ class Settings:
             database_url=database_url,
             model=model,
             api_key=api_key,
-            base_url=os.getenv("OPENAI_BASE_URL") or None,
+            base_url=base_url,
             embedding_model=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"),
             table_name=table_name,
         )
@@ -123,16 +132,38 @@ def serializar_resultados(resultados: list[dict[str, Any]]) -> str:
 
 def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, Any]], model: str) -> str:
     """Ejecuta el ciclo de function calling hasta que el modelo entregue texto."""
+    tool_used = False
     for _ in range(3):
         completion = client.chat.completions.create(
             model=model,
             messages=messages,
             tools=[SEARCH_TOOL],
-            tool_choice="auto",
+            # Después de consultar PostgreSQL se fuerza la respuesta final. Esto
+            # evita que algunos modelos compatibles vuelvan a llamar la función.
+            tool_choice="none" if tool_used else "auto",
             temperature=0.2,
         )
         message = completion.choices[0].message
-        messages.append(message.model_dump(exclude_none=True))
+        # No reenviar el model_dump completo: proveedores OpenAI-compatibles
+        # pueden rechazar con HTTP 400 campos adicionales de versiones nuevas
+        # del SDK. Solo se conserva el formato estándar requerido.
+        assistant_message: dict[str, Any] = {
+            "role": "assistant",
+            "content": message.content,
+        }
+        if message.tool_calls:
+            assistant_message["tool_calls"] = [
+                {
+                    "id": call.id,
+                    "type": "function",
+                    "function": {
+                        "name": call.function.name,
+                        "arguments": call.function.arguments,
+                    },
+                }
+                for call in message.tool_calls
+            ]
+        messages.append(assistant_message)
 
         if not message.tool_calls:
             return message.content or "No pude generar una respuesta. Intenta nuevamente."
@@ -153,14 +184,26 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
                         {"error": "No fue posible consultar la base de conocimiento."}, ensure_ascii=False
                     )
             messages.append({"role": "tool", "tool_call_id": tool_call.id, "content": output})
+        tool_used = True
     return "No pude completar la búsqueda. Por favor, intenta formular la pregunta de otra manera."
 
 
 def main() -> None:
-    load_dotenv()
+    # La configuración del proyecto debe prevalecer sobre variables antiguas
+    # definidas en Windows o heredadas de otros ejercicios. La ruta se resuelve
+    # junto a este script para permitir ejecutarlo desde cualquier directorio.
+    env_path = Path(__file__).resolve().parent / ".env"
+    if not env_path.is_file():
+        sys.exit(f"Error de configuración: no se encontró {env_path}")
+    load_dotenv(env_path, override=True)
     try:
         settings = Settings.from_env()
-        client = OpenAI(api_key=settings.api_key, base_url=settings.base_url)
+        client = OpenAI(
+            api_key=settings.api_key,
+            base_url=settings.base_url,
+            timeout=120.0,
+            max_retries=1,
+        )
         searcher = FAQSearcher(settings)
     except RuntimeError as error:
         sys.exit(f"Error de configuración: {error}")
@@ -181,7 +224,24 @@ def main() -> None:
         messages.append({"role": "user", "content": question})
         try:
             print(f"\nAsistente: {responder(client, searcher, messages, settings.model)}")
-        except Exception as error:  # Evita cerrar el chat por un fallo transitorio del proveedor.
+        except APITimeoutError:
+            print("\nAsistente: El proveedor tardó demasiado en responder. Intenta nuevamente.")
+        except APIConnectionError:
+            print("\nAsistente: No fue posible conectarse con el proveedor del modelo.")
+        except APIStatusError as error:
+            detail = ""
+            if isinstance(error.body, dict):
+                provider_error = error.body.get("error", error.body)
+                if isinstance(provider_error, dict):
+                    detail = str(provider_error.get("message", ""))
+                elif provider_error:
+                    detail = str(provider_error)
+            suffix = f" Detalle: {detail}" if detail else ""
+            print(
+                f"\nAsistente: El proveedor respondió con error HTTP "
+                f"{error.status_code}.{suffix}"
+            )
+        except Exception as error:  # Evita cerrar el chat por un fallo no previsto.
             print(f"\nAsistente: Ocurrió un error al procesar la consulta: {error}")
 
 
