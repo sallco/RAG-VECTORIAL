@@ -170,81 +170,89 @@ def ultima_pregunta_usuario(messages: list[dict[str, Any]]) -> str:
     raise ValueError("No se encontró una pregunta del usuario para consultar.")
 
 
+def parsear_argumentos_busqueda(raw_arguments: str) -> tuple[str, int]:
+    arguments = json.loads(raw_arguments)
+    if not isinstance(arguments, dict):
+        raise TypeError("Los argumentos de la herramienta deben ser un objeto JSON.")
+    parameters = arguments.get("parameters", arguments)
+    if not isinstance(parameters, dict):
+        raise TypeError("parameters debe ser un objeto JSON.")
+    consulta = parameters["consulta"]
+    if not isinstance(consulta, str) or not consulta.strip():
+        raise TypeError("consulta debe ser texto no vacío.")
+    limite = int(parameters.get("limite", 3))
+    return consulta, limite
+
+
 def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, Any]], model: str) -> str:
-    """Ejecuta el ciclo de function calling hasta que el modelo entregue texto."""
-    tool_used = False
-    for _ in range(3):
-        completion = client.chat.completions.create(
-            model=model,
-            messages=messages,
-            tools=[SEARCH_TOOL],
-            # Después de consultar PostgreSQL se fuerza la respuesta final. Esto
-            # evita que algunos modelos compatibles vuelvan a llamar la función.
-            tool_choice=(
-                "none"
-                if tool_used
-                else {"type": "function", "function": {"name": "buscar_faqs"}}
-            ),
-            temperature=0.2,
+    """Obliga la herramienta y devuelve la respuesta oficial recuperada."""
+    completion = client.chat.completions.create(
+        model=model,
+        messages=messages,
+        tools=[SEARCH_TOOL],
+        tool_choice={"type": "function", "function": {"name": "buscar_faqs"}},
+        temperature=0.2,
+    )
+    message = completion.choices[0].message
+    assistant_message: dict[str, Any] = {
+        "role": "assistant",
+        "content": message.content,
+    }
+    if message.tool_calls:
+        assistant_message["tool_calls"] = [
+            {
+                "id": call.id,
+                "type": "function",
+                "function": {
+                    "name": call.function.name,
+                    "arguments": call.function.arguments,
+                },
+            }
+            for call in message.tool_calls
+        ]
+    messages.append(assistant_message)
+
+    if not message.tool_calls:
+        response = (
+            "No puedo responder esa pregunta con la información disponible. "
+            "Puedes escribir a soporte@parachutesa.gt."
         )
-        message = completion.choices[0].message
-        # No reenviar el model_dump completo: proveedores OpenAI-compatibles
-        # pueden rechazar con HTTP 400 campos adicionales de versiones nuevas
-        # del SDK. Solo se conserva el formato estándar requerido.
-        assistant_message: dict[str, Any] = {
-            "role": "assistant",
-            "content": message.content,
-        }
-        if message.tool_calls:
-            assistant_message["tool_calls"] = [
-                {
-                    "id": call.id,
-                    "type": "function",
-                    "function": {
-                        "name": call.function.name,
-                        "arguments": call.function.arguments,
-                    },
-                }
-                for call in message.tool_calls
-            ]
-        messages.append(assistant_message)
+        messages.append({"role": "assistant", "content": response})
+        return response
 
-        if not message.tool_calls:
-            return message.content or "No pude generar una respuesta. Intenta nuevamente."
-
-        should_refuse = False
-        for tool_call in message.tool_calls:
-            if tool_call.function.name != "buscar_faqs":
-                output = json.dumps({"error": "Herramienta no permitida."})
+    results_found: list[dict[str, Any]] = []
+    should_refuse = False
+    for tool_call in message.tool_calls:
+        if tool_call.function.name != "buscar_faqs":
+            output = json.dumps({"error": "Herramienta no permitida."})
+            should_refuse = True
+        else:
+            try:
+                _, limite = parsear_argumentos_busqueda(tool_call.function.arguments)
+                results = searcher.search(ultima_pregunta_usuario(messages), limite)
+                output = serializar_resultados(results)
+                results_found.extend(results)
+                should_refuse = should_refuse or not results
+            except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
+                output = json.dumps({"error": f"Argumentos inválidos: {error}"}, ensure_ascii=False)
                 should_refuse = True
-            else:
-                try:
-                    arguments = json.loads(tool_call.function.arguments)
-                    if not isinstance(arguments["consulta"], str):
-                        raise TypeError("consulta debe ser texto.")
-                    results = searcher.search(
-                        ultima_pregunta_usuario(messages), arguments.get("limite", 3)
-                    )
-                    output = serializar_resultados(results)
-                    should_refuse = should_refuse or not results
-                except (json.JSONDecodeError, KeyError, TypeError, ValueError) as error:
-                    output = json.dumps({"error": f"Argumentos inválidos: {error}"}, ensure_ascii=False)
-                    should_refuse = True
-                except psycopg.Error:
-                    output = json.dumps(
-                        {"error": "No fue posible consultar la base de conocimiento."}, ensure_ascii=False
-                    )
-                    should_refuse = True
-            messages.append({"role": "tool", "tool_call_id": tool_call.id, "content": output})
-        if should_refuse:
-            response = (
-                "No puedo responder esa pregunta con la información disponible. "
-                "Puedes escribir a soporte@parachutesa.gt."
-            )
-            messages.append({"role": "assistant", "content": response})
-            return response
-        tool_used = True
-    return "No pude completar la búsqueda. Por favor, intenta formular la pregunta de otra manera."
+            except psycopg.Error:
+                output = json.dumps(
+                    {"error": "No fue posible consultar la base de conocimiento."}, ensure_ascii=False
+                )
+                should_refuse = True
+        messages.append({"role": "tool", "tool_call_id": tool_call.id, "content": output})
+
+    if should_refuse or not results_found:
+        response = (
+            "No puedo responder esa pregunta con la información disponible. "
+            "Puedes escribir a soporte@parachutesa.gt."
+        )
+    else:
+        best_result = results_found[0]
+        response = f"{best_result['respuesta']} ({best_result['id']})"
+    messages.append({"role": "assistant", "content": response})
+    return response
 
 
 def main() -> None:
