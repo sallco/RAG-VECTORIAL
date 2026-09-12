@@ -9,7 +9,9 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
+import textwrap
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -30,6 +32,14 @@ que no puedes contestar esa pregunta con la información disponible y recomienda
 escribir a soporte@parachutesa.gt. Responde en español, de forma breve y amable.
 Si mencionas información encontrada, cita el ID de la FAQ entre paréntesis, por
 ejemplo: (FAQ-012)."""
+
+
+RESPONSE_SYSTEM_PROMPT = """Redacta una respuesta breve, amable y clara en español.
+Usa únicamente la fuente oficial proporcionada por el usuario. No agregues hechos,
+políticas, aprobaciones ni restricciones que la fuente no exprese. Si la fuente no
+resuelve explícitamente la pregunta, explica con claridad que solo se encontró la
+información relacionada y recomienda contactar a soporte@parachutesa.gt. Incluye el
+ID de la FAQ al final de la respuesta."""
 
 
 SEARCH_TOOL = {
@@ -125,7 +135,8 @@ class FAQSearcher:
 
     def search(self, consulta: str, limite: int = 3) -> list[dict[str, Any]]:
         limite = max(1, min(int(limite), 5))
-        embedding = self.encoder.encode(consulta, normalize_embeddings=True).tolist()
+        consulta_normalizada = re.sub(r"([?!])\1+", r"\1", consulta.strip())
+        embedding = self.encoder.encode(consulta_normalizada, normalize_embeddings=True).tolist()
         # table_name fue validado con isidentifier(); los demás valores se parametrizan.
         query = f"""
             SELECT id, categoria, pregunta, respuesta, metadata,
@@ -182,6 +193,48 @@ def parsear_argumentos_busqueda(raw_arguments: str) -> tuple[str, int]:
         raise TypeError("consulta debe ser texto no vacío.")
     limite = int(parameters.get("limite", 3))
     return consulta, limite
+
+
+def formatear_respuesta(result: dict[str, Any]) -> str:
+    respuesta = textwrap.fill(
+        result["respuesta"],
+        width=88,
+        initial_indent="  ",
+        subsequent_indent="  ",
+    )
+    return (
+        f"Pregunta relacionada: {result['pregunta']}\n"
+        f"Categoría: {result['categoria']}\n\n"
+        f"Respuesta oficial:\n{respuesta}\n\n"
+        f"Referencia: {result['id']}"
+    )
+
+
+def redactar_respuesta(
+    client: OpenAI, model: str, question: str, result: dict[str, Any]
+) -> str:
+    source = json.dumps(
+        {
+            "id": result["id"],
+            "categoria": result["categoria"],
+            "pregunta": result["pregunta"],
+            "respuesta": result["respuesta"],
+        },
+        ensure_ascii=False,
+    )
+    completion = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": RESPONSE_SYSTEM_PROMPT},
+            {
+                "role": "user",
+                "content": f"Pregunta del usuario: {question}\n\nFuente oficial:\n{source}",
+            },
+        ],
+        temperature=0.2,
+    )
+    response = completion.choices[0].message.content
+    return response.strip() if response else formatear_respuesta(result)
 
 
 def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, Any]], model: str) -> str:
@@ -250,7 +303,12 @@ def responder(client: OpenAI, searcher: FAQSearcher, messages: list[dict[str, An
         )
     else:
         best_result = results_found[0]
-        response = f"{best_result['respuesta']} ({best_result['id']})"
+        response = redactar_respuesta(
+            client,
+            model,
+            ultima_pregunta_usuario(messages),
+            best_result,
+        )
     messages.append({"role": "assistant", "content": response})
     return response
 
