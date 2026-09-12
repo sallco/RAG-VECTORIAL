@@ -3,6 +3,28 @@
 Implementación de RAG para las FAQs de Parachute S.A. con PostgreSQL, pgvector y
 function calling.
 
+## Entorno virtual
+
+Desde la raíz del repositorio, crea y activa el entorno virtual:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+En PowerShell de Windows, actívalo con:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Con el entorno activo, instala todas las dependencias del proyecto una sola vez:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
 ## Infraestructura
 
 La base vectorial se ejecuta localmente con PostgreSQL 16 y la extensión pgvector
@@ -52,14 +74,26 @@ búsquedas por distancia coseno. La columna `embedding` tiene tipo `vector(384)`
 porque el proyecto usa el modelo `all-MiniLM-L6-v2`, que genera vectores de esa
 dimensión.
 
+## Carga del corpus
+
+`load_faqs.py` lee el corpus, valida su formato, crea un embedding normalizado por
+FAQ y realiza un *upsert* en PostgreSQL. Por ello se puede ejecutar nuevamente
+después de cambiar el corpus sin duplicar registros.
+
+Con el entorno virtual activo, ejecuta el cargador desde la raíz del repositorio:
+
+```bash
+python load_faqs.py
+```
+
+El modelo se descarga en la primera ejecución. El cargador requiere `DATABASE_URL`,
+`FAQ_TABLE` y `EMBEDDING_MODEL` en `.env`; aplica `db/schema.sql` antes de insertar
+las FAQs, por lo que también funciona con una base nueva.
+
 ## Agente de IA
 
 `agent.py` es el programa conversacional. No ingiere el corpus: consulta la tabla
-vectorial que genere el script de carga. Instala sus dependencias con:
-
-```powershell
-python -m pip install -r requirements-agent.txt
-```
+vectorial que genere el script de carga.
 
 Copia `.env.example` como `.env` y configura las credenciales y la conexión de la
 base de datos. Se admite `OPENAI_API_KEY` o `NVIDIA_API_KEY`; `OPENAI_BASE_URL` y
